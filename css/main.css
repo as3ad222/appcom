@@ -285,9 +285,9 @@ body {
   padding: 20px;
   text-align: center;
 }
-/* .projects .projects-content .card .info h3 {
+.projects .projects-content .card .info h3 {
   margin: 0;
-} */
+}
 /* .projects .projects-content .card .info p {
   color: #777;
   line-height: 1.6;
