@@ -268,7 +268,7 @@ body {
 }
 .projects .projects-content {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 30px;
   margin-top: 80px;
 }
@@ -277,13 +277,17 @@ body {
 }
 .projects .projects-content .card img {
   max-width: 100%;
+  border-radius: 15px;
+  width: 400px;
+  height: 300px;
 }
 .projects .projects-content .card .info {
   padding: 20px;
+  text-align: center;
 }
-.projects .projects-content .card .info h3 {
+/* .projects .projects-content .card .info h3 {
   margin: 0;
-}
+} */
 /* .projects .projects-content .card .info p {
   color: #777;
   line-height: 1.6;
